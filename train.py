@@ -17,7 +17,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 
 def stopwordslist():
-    stopwords = [line.strip() for line in open('null.txt', encoding='UTF-8').readlines()]
+    stopwords = [line.strip() for line in open('stop.txt', encoding='UTF-8').readlines()]
     return stopwords
 
 def seg_depart(sentence, stp):
