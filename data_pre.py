@@ -3,7 +3,7 @@ import os
 
 from tqdm import tqdm
 
-f = open('财经.csv','w',encoding='utf-8')
+f = open('财经.csv','w',encoding='utf-8') #这里可以通过修改文件名来选择不同的文件，生成不同的cvs文件
 csv_writer = csv.writer(f)
 csv_writer.writerow(["file_name","class_name","text"])
 file_path = '分类样本集'
